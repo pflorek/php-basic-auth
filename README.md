@@ -3,13 +3,13 @@
 [![Build Status](https://travis-ci.org/pflorek/php-basic-auth.svg?branch=master)](https://travis-ci.org/pflorek/php-basic-auth)
 [![Coverage Status](https://coveralls.io/repos/github/pflorek/php-basic-auth/badge.svg?branch=master)](https://coveralls.io/github/pflorek/php-basic-auth?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/pflorek/php-basic-auth/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/pflorek/php-basic-auth/?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/pflorek/basic-auth/v/stable)](https://packagist.org/packages/pflorek/basic-auth)
-[![Total Downloads](https://poser.pugx.org/pflorek/basic-auth/downloads)](https://packagist.org/packages/pflorek/basic-auth)
-[![Latest Unstable Version](https://poser.pugx.org/pflorek/basic-auth/v/unstable)](https://packagist.org/packages/pflorek/basic-auth)
-[![License](https://poser.pugx.org/pflorek/basic-auth/license)](https://packagist.org/packages/pflorek/basic-auth)
-[![Monthly Downloads](https://poser.pugx.org/pflorek/basic-auth/d/monthly)](https://packagist.org/packages/pflorek/basic-auth)
-[![Daily Downloads](https://poser.pugx.org/pflorek/basic-auth/d/daily)](https://packagist.org/packages/pflorek/basic-auth)
-[![composer.lock](https://poser.pugx.org/pflorek/basic-auth/composerlock)](https://packagist.org/packages/pflorek/basic-auth)
+[![Latest Stable Version](https://poser.pugx.org/pflorek/php-basic-auth/v/stable)](https://packagist.org/packages/pflorek/php-basic-auth)
+[![Total Downloads](https://poser.pugx.org/pflorek/php-basic-auth/downloads)](https://packagist.org/packages/pflorek/php-basic-auth)
+[![Latest Unstable Version](https://poser.pugx.org/pflorek/php-basic-auth/v/unstable)](https://packagist.org/packages/pflorek/php-basic-auth)
+[![License](https://poser.pugx.org/pflorek/php-basic-auth/license)](https://packagist.org/packages/pflorek/php-basic-auth)
+[![Monthly Downloads](https://poser.pugx.org/pflorek/php-basic-auth/d/monthly)](https://packagist.org/packages/pflorek/php-basic-auth)
+[![Daily Downloads](https://poser.pugx.org/pflorek/php-basic-auth/d/daily)](https://packagist.org/packages/pflorek/php-basic-auth)
+[![composer.lock](https://poser.pugx.org/pflorek/php-basic-auth/composerlock)](https://packagist.org/packages/pflorek/php-basic-auth)
 
 This library provides a simple way to get or set credentials (username, password) on a PSR-7 `RequestInterface`. Also it helps challenging an unauthorized client by adding the 'WWW-authenticate' header line with status code 401 to a PSR-7 `ResponseInterface`. It should be helpful if a PSR-15 `Middleware` is not applicable.
 
