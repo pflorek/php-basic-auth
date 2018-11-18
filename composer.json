@@ -1,0 +1,52 @@
+{
+    "name": "pflorek/php-basic-auth",
+    "description": "Provides a simple way to get or set credentials (username, password) on a PSR-7 `RequestInterface`. Also it helps challenging an unauthorized client by adding the 'WWW-authenticate' header line with status code 401 to a PSR-7 `ResponseInterface`.",
+    "type": "library",
+    "keywords": [
+        "http",
+        "BasicAuth",
+        "psr-7",
+        "authorization",
+        "request",
+        "response",
+        "realm",
+        "Authorization",
+        "WWW-Authentocate",
+        "RFC 7617"
+    ],
+    "time": "2018-11-16",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Florek",
+            "email": "patrick.florek@gmail.com",
+            "homepage": "http://www.patrickflorek.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4",
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8.36"
+    },
+    "suggest": {
+        "zendframework/zend-diactoros": "",
+        "guzzlehttp/guzzle": ""
+    },
+    "autoload": {
+        "psr-4": {
+            "PFlorek\\BasicAuth\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PFlorek\\BasicAuth\\Tests\\": "tests/"
+        }
+    }
+}
