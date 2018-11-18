@@ -80,7 +80,7 @@ var_dump($response->getStatusCode());
 Use [Composer] to install the package:
 
 ```bash
-composer require pflorek/basic-auth
+composer require pflorek/php-basic-auth
 ```
 
 ## Authors
